@@ -15,4 +15,4 @@ import React from 'react';
     )
 }
 
-export default PopupWithForm
+export default PopupWithForm;

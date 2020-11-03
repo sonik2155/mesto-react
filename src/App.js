@@ -50,8 +50,8 @@ export default function App() {
         <Footer / >
         <ImagePopup 
         card={selectedCard}
-        onClose={closeAllPopups}
         isOpen={showPopupImage}
+        onClose={closeAllPopups}
         / >
         <PopupWithForm 
         name='add'
