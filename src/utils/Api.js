@@ -146,12 +146,12 @@ export class Api {
     }
 }
 
-const  api = new Api({ 
-    url: 'https://mesto.nomoreparties.co/v1/cohort-16', 
-    headers: { 
-        authorization: '344a64cf-b308-474c-8210-0f54155eeeb6', 
-        'Content-type': 'application/json' 
-    } 
-}); 
+const api = new Api({
+    url: 'https://mesto.nomoreparties.co/v1/cohort-16',
+    headers: {
+        authorization: '344a64cf-b308-474c-8210-0f54155eeeb6',
+        'Content-type': 'application/json'
+    }
+});
 
-export {api};
+export { api };
