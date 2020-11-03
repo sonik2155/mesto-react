@@ -14,11 +14,11 @@ const addPopupCards = (
 const addProfilePopup = (
     <>
  <label className="popup__label"> 
-                <input name="name" id='name' type="text" value="" autoComplete="off" minLength="2" maxLength="40" required className="popup__form popup__form_name_call" /> 
+                <input name="name" id='name' type="text"  defaultValue="" autoComplete="off" minLength="2" maxLength="40" required className="popup__form popup__form_name_call" /> 
                 <span className="popup__error_visible" id="name-error"></span> 
             </label> 
                 <label className="popup__label"> 
-                <input name="info" id='text' type="text" value="" autoComplete="off" minLength="2" maxLength="200" required className="popup__form popup__form_job" /> 
+                <input name="info" id='text' type="text" defaultValue="" autoComplete="off" minLength="2" maxLength="200" required className="popup__form popup__form_job" /> 
                 <span className="popup__error_visible" id="text-error"></span> 
                 </label> 
 
