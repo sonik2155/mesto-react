@@ -48,10 +48,6 @@ function Main({onCardDelete, cards, onCardLike, onAddPlace, onEditProfile, onEdi
               <Card 
               element={card} 
               onCardOpen={onCardClick}
-              owner={card.owner}
-              link={card.link}
-              name={card.name}
-              likes={card.likes}
               onCardLike={onCardLike}
               onCardDelete={onCardDelete} />
             </li> 

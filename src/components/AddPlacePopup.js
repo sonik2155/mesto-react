@@ -3,8 +3,6 @@ import PopupWithForm from './PopupWithForm';
 import CurrentUserContext from "../contexts/CurrentUserContext";
 
 function AddPlacePopup(props) {
-  const currentUser = React.useContext(CurrentUserContext);
-
   const [name, setName] = React.useState("");
   const [link, setLink] = React.useState("");
 
@@ -15,11 +13,6 @@ function AddPlacePopup(props) {
   function handleLinkChange(e) {
     setLink(e.target.value);
   }
-
-  React.useEffect(() => {
-    setName(currentUser.call);
-    setLink(currentUser.link);
-  }, [currentUser]); 
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -48,6 +41,7 @@ function AddPlacePopup(props) {
             autoComplete="off"
             minLength="1"
             maxLength="30"
+            value={name}
             placeholder="Название"
             className="popup__form popup__form_name_title"
           />
@@ -59,6 +53,7 @@ function AddPlacePopup(props) {
             id="url"
             type="url"
             required
+            value={link}
             onChange={handleLinkChange}
             autoComplete="off"
             placeholder="Ссылка на картинку"

@@ -25,7 +25,6 @@ function EditAvatarPopup(props) {
         type="url"
         id="link"
         ref={avatarRef}
-        onChange={props.onUpdateAvatar}
         required
         placeholder="https://images.unsplash.com/photo-1599937749121-6d2b5063ea98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         autoComplete="off"

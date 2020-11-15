@@ -46,7 +46,7 @@ function EditProfilePopup(props) {
                   id="name"
                   type="text"
                   placeholder="Жак-Ив Кусто"
-                  defaultValue=""
+                  value={name}
                   autoComplete="off"
                   minLength="2"
                   maxLength="40"
@@ -62,7 +62,7 @@ function EditProfilePopup(props) {
                   id="text"
                   type="text"
                   placeholder="Исследователь океана"
-                  defaultValue=""
+                  value={info}
                   autoComplete="off"
                   minLength="2"
                   maxLength="200"
