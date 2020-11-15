@@ -1,4 +1,4 @@
-export class Api {
+class Api {
   constructor(options) {
     this._url = options.url;
     this._authorization = options.headers.authorization;
@@ -53,24 +53,9 @@ export class Api {
     });
   }
 
-  addLike(cardId) {
+  changeLikeCardStatus(cardId, isLiked) {
     return fetch(`${this._url}/cards/likes/${cardId}`, {
-      method: "PUT",
-      headers: {
-        authorization: this._authorization,
-        "Content-Type": this._contentType,
-      },
-    }).then((res) => {
-      if (res.ok) {
-        return res.json();
-      }
-      return Promise.reject(`Ошибка: ${res.status}`);
-    });
-  }
-
-  deleteLike(cardId) {
-    return fetch(`${this._url}/cards/likes/${cardId}`, {
-      method: "DELETE",
+      method: isLiked ? "PUT": "DELETE",
       headers: {
         authorization: this._authorization,
         "Content-Type": this._contentType,
@@ -134,9 +119,9 @@ export class Api {
       return Promise.reject(`Ошибка: ${res.status}`);
     });
   }
-}
+};
 
-const api = new Api({
+export  const api = new Api({
   url: "https://mesto.nomoreparties.co/v1/cohort-16",
   headers: {
     authorization: "344a64cf-b308-474c-8210-0f54155eeeb6",
@@ -144,4 +129,4 @@ const api = new Api({
   },
 });
 
-export { api };
+
