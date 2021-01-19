@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sonik2155/mesto-react/static/css/main.cd0edbc4.chunk.css",
+    "main.js": "/sonik2155/mesto-react/static/js/main.8033feb7.chunk.js",
+    "main.js.map": "/sonik2155/mesto-react/static/js/main.8033feb7.chunk.js.map",
+    "runtime-main.js": "/sonik2155/mesto-react/static/js/runtime-main.60c576da.js",
+    "runtime-main.js.map": "/sonik2155/mesto-react/static/js/runtime-main.60c576da.js.map",
+    "static/js/2.63617192.chunk.js": "/sonik2155/mesto-react/static/js/2.63617192.chunk.js",
+    "static/js/2.63617192.chunk.js.map": "/sonik2155/mesto-react/static/js/2.63617192.chunk.js.map",
+    "index.html": "/sonik2155/mesto-react/index.html",
+    "static/css/main.cd0edbc4.chunk.css.map": "/sonik2155/mesto-react/static/css/main.cd0edbc4.chunk.css.map",
+    "static/js/2.63617192.chunk.js.LICENSE.txt": "/sonik2155/mesto-react/static/js/2.63617192.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sonik2155/mesto-react/static/media/inter-900.769f5bb9.woff2",
+    "static/media/Pencil.a086f758.svg": "/sonik2155/mesto-react/static/media/Pencil.a086f758.svg",
+    "static/media/Trash.a274c87c.svg": "/sonik2155/mesto-react/static/media/Trash.a274c87c.svg",
+    "static/media/like.49570bcb.svg": "/sonik2155/mesto-react/static/media/like.49570bcb.svg",
+    "static/media/logo.a307e1c4.svg": "/sonik2155/mesto-react/static/media/logo.a307e1c4.svg",
+    "static/media/plus.d86bb2ed.svg": "/sonik2155/mesto-react/static/media/plus.d86bb2ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60c576da.js",
+    "static/js/2.63617192.chunk.js",
+    "static/css/main.cd0edbc4.chunk.css",
+    "static/js/main.8033feb7.chunk.js"
+  ]
+}
